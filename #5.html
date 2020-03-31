@@ -1,0 +1,143 @@
+<!-- #2
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  document.write('Nombre: Jafet T.');
+  document.write('<br>');
+  document.write('Edad: 17');
+</script>
+
+</body>
+</html>
+-->
+
+<!-- #3
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var nombre, sueldo;
+  nombre='Angel N.'
+  sueldo=25000;
+  document.write(nombre);
+  document.write('<br>');
+  document.write(sueldo); 
+</script>
+
+</body>
+</html> -->
+
+<!-- #4
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var nombre;
+  var mail;
+  nombre=prompt('Ingrese su nombre:','');
+  edad=prompt('Ingrese su mail:','');
+  document.write(nombre);
+  document.write('<br>');
+  document.write(edad);
+
+</script>
+
+</body>
+</html>-->
+
+<!--PROBLEMAS
+1)Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo (El perímetro de un cuadrado se calcula multiplicando 
+  el valor del lado por cuatro)
+2)Escribir un programa en el cual se ingresen cuatro números, calcular e informar la suma de los dos primeros y el producto del tercero y el
+  cuarto.
+3)Realizar un programa que lea cuatro valores numéricos e informar su suma y producto.
+4)Se debe desarrollar un programa que pida el ingreso del precio de un artículo y la cantidad que lleva el cliente. 
+  Mostrar lo que debe abonar el comprador (Ingresar por teclado un precio sin decimales, es decir un entero: 2, 7, 90 etc.)-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+<!--     PROBLEMAS #1     
+    <script>
+        var  lado1;
+        lado1 = prompt('Ingrese la medida de 1 lado:', '');
+        var mult = parseInt(lado1) * 4;
+        document.write('El area del cuadrado es: ');
+        document.write(mult);
+    </script> -->
+
+<!--     PROBLEMAS #2     
+<script>
+    var  num1;
+    var  num2;
+    var  num3;
+    var  num4;
+    num1 = prompt('Ingrese su primer valor:', '');
+    num2 = prompt('Ingrese su segundo valor:', '');
+    num3 = prompt('Ingrese su tercer valor:', '');
+    num4 = prompt('Ingrese su cuarto valor:', '');
+    var suma = parseInt(num1) + parseInt(num2);
+    document.write('La suma de sus 2 primeros digitos es: ');
+    document.write(suma);
+    document.write("<br>");
+    var mult = parseInt(num3) * parseInt(num4);
+    document.write('El producto de su 2 ultimos digitos es: ');
+    document.write(mult);
+</script> -->
+
+<!--     PROBLEMAS #3 
+<script>
+    var  num1;
+    var  num2;
+    var  num3;
+    var  num4;
+    num1 = prompt('Ingrese su primer valor:', '');
+    num2 = prompt('Ingrese su segundo valor:', '');
+    num3 = prompt('Ingrese su tercer valor:', '');
+    num4 = prompt('Ingrese su cuarto valor:', '');
+    var suma = parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4);
+    document.write('La suma de sus sus valores es: ');
+    document.write(suma);
+    document.write("<br>");
+    var mult = parseInt(num1) * parseInt(num2) * parseInt(num3) * parseInt(num4);
+    document.write('El producto de sus valores es: ');
+    document.write(mult);
+</script> -->
+
+<!--     PROBLEMAS #4  
+<script>
+    var  precio;
+    var  cantidad;
+    precio = prompt('Ingrese el precio del producto:', '');
+    cantidad = prompt('Ingrese la cantidad de producto que lleva:', '');
+    var pago = parseInt(precio) * parseInt(cantidad);
+    document.write('Por favor pagar: ');
+    document.write(pago);
+</script> -->
+
+
+
+</body>
+
+</html>
